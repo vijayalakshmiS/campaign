@@ -25,7 +25,7 @@ module.exports = {
   	},
   	escalationId:
   	{
-  		model: 'escalation'
+  		model: 'escalation1'
   	}
 
   }

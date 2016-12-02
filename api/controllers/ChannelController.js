@@ -25,7 +25,8 @@ module.exports = {
   
   show: function (req, res) {
     var id = req.param('id');
-    Channel.find().populate('template').populate('people').exec(function(err, show){
+    //Channel.find().populate(['email','people','sms','webpush','fcm']).exec(function(err, show){
+    Channel.find().populate(['email','sms','webpush','fcm']).exec(function(err, show){
       if(err){
         res.send(err, 500);
       }

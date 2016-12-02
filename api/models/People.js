@@ -16,11 +16,12 @@ module.exports = {
   	groups:{
   		collection: 'group',
   		via: 'peoples'
-  	},
-    channel_id:
-    {
-      model: 'channel'
-    }
+  	}
+    // ,
+    // channel_id:
+    // {
+    //   model: 'channel'
+    // }
 
   }
 };

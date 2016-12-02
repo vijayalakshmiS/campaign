@@ -12,9 +12,20 @@ module.exports = {
   	   {
   	   	type: 'array'
   	   },
+
+       url:
+       {
+        type: 'string'
+       },
+
        content:
         {
          type: 'string'
+        },
+
+        subject:
+        {
+          type: 'string'
         },
 
        title:
@@ -22,7 +33,7 @@ module.exports = {
          type: 'string'
         },
         templateno:{
-        	model: 'template'
+        	model: 'channel'
         }
 
 

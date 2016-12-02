@@ -18,11 +18,11 @@ module.exports = {
   	},
   	validityFrom:
   	{
-  		type: 'string'
+  		type: 'date'
   	},
   	validityTo:
   	{
-  		type: 'string'
+  		type: 'date'
   	},
     channel:
     {
@@ -39,6 +39,6 @@ module.exports = {
       collection: 'rule',
       via: 'campaigns'
     }
-  },
+  }
 };
 

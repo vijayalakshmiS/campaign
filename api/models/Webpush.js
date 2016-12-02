@@ -16,9 +16,15 @@ module.exports = {
   	{
   		type: 'string'
   	},
+
+    subject:
+    {
+      type: 'string'
+    },
+    
   	template:
   	{
-  		model: 'template'
+  		model: 'channel'
   	}
 
   }

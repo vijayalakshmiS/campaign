@@ -8,24 +8,45 @@
 module.exports = {
 
   attributes: {
-  	template:
-  	{
-  		collection: 'template',
-  		via: 'channelId'
-  	},
+  	 email:
+    {
+      collection: 'email',
+      via: 'templateId'
+    },
 
-  	people:
-  	{
-  		collection: 'people', 
-  		via:'channel_id'
-  	},
+    sms:
+    {
+      collection: 'sms',
+      via: 'template_id'
+
+    },
+
+    webpush:
+    {
+      collection: 'webpush',
+      via: 'template'
+    },
+
+    fcm:
+    {
+      collection: 'fcm',
+      via: 'templateno'
+    },
+
+  	// people:
+  	// {
+  	// 	collection: 'people', 
+  	// 	via:'channel_id'
+  	// },
+
   	campaignId:
   	{
   		model: 'campaign'
   	},
+    
   	escalationId:
   	{
-  		model: 'escalation1'
+  		model: 'escalation'
   	}
 
   }

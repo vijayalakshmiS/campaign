@@ -41,7 +41,7 @@ module.exports = {
       todo: 'new() is not implemented yet!'
     });
   },
-
+  
 
   /**
    * `RuleController.create()`

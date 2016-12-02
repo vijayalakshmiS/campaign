@@ -22,7 +22,7 @@ module.exports = {
            },
            templateId:
            {
-           	model: 'template'
+           	model: 'channel'
            }
 
   }

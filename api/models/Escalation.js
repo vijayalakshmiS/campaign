@@ -8,6 +8,18 @@
 module.exports = {
 
   attributes: {
+      newEscalation: 
+    {
+      type: 'string'
+    },  
+    validityFrom:
+    {
+      type: 'date'
+    },
+    validityTo:
+    {
+      type: 'date'
+    },
   	channel:
   	{
   		collection: 'channel',

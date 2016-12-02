@@ -274,7 +274,7 @@ module.exports.routes = {
   },
 
 //routes for campaigns
-   'get /campaigns/:id':
+   'get /campaigns':
   {
     controller: 'campaign',
     action: 'show'
